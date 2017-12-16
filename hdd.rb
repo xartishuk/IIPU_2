@@ -1,6 +1,6 @@
 GET_HDD_INFO_COMMAND = `sudo hdparm -I /dev/sda`.freeze
 HDD_ARRAY = [/Model Number/ ,/Firmware Revision/ , /Serial Number/,
-              /^Transport/, /^PIO/, /^DMA/]
+              /^Transport/, /^PIO/, /^DMA/] 
 GET_MEMORY_INFO_COMMAND = `df -m`.freeze
 
 
